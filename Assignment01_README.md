@@ -109,7 +109,7 @@ user_id = int(input("Enter your user ID: "))
 final_suggestions = recommend_unseen_top_movies(user_id=user_id, num_movies=10)
 final_suggestions
 
----
+```
 
 ## ✅ Results
 
@@ -131,9 +131,6 @@ The following top 10 recommendations were generated:
 | 9       | Peaceful Warrior (2006)                            | 5.0    |
 | 10      | Chump at Oxford, A (1940)                          | 5.0    |
 
-These suggestions show the system’s ability to align with a user’s interests, including non-mainstream or international films.
-
----
 
 ## 🧰 Tools & Technologies
 
@@ -141,16 +138,12 @@ These suggestions show the system’s ability to align with a user’s interests
 - **Google Colab**
 - **Pandas**, **NumPy** – for data handling
 - **Pearson Correlation** – for movie similarity calculation
-
----
-
+		
 ## 🧾 Conclusion
 
 This project successfully developed a **functional and personalized movie recommendation system** using the MovieLens dataset. By applying **collaborative filtering techniques** and computing a similarity matrix between films, the system provides movie suggestions tailored to each user’s preferences.
 
 The system enhances user experience by reducing the time spent searching for content and increasing the relevance of what is suggested.
-
----
 
 ## 🚀 Future Improvements
 
